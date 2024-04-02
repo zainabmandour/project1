@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(191, 0, 255);
+    position: absolute;
+    /* animation: change 3s linear 0 infinite alternate forwards; */
+}
+.a1{
+    top: 0;
+    left: 0;
+    animation-name: aa1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa1{
+    0%{
+        left: 0;
+        }
+    100%{
+        left: 1290px;
+    }
+}
+.a2{
+    top: 200px;
+    left: 0;
+    animation-name: aa2;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+} 
+@keyframes aa2{
+    0%{
+        left: 0;
+        }
+    100%{
+        left: 1290px;
+    }
+}
+.a3{
+    top: 400;
+    left: 0;
+    animation-name: aa3;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa3{
+    0%{
+        left: 0;
+        }
+    100%{
+        left: 1290px;
+    }
+}
+.a4{
+    top: 600;
+    left: 0;
+    animation-name: aa4;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa4{
+    0%{
+        left: 0;
+        }
+    100%{
+        left: 1290px;
+    }
+}
+
+.a5{
+    top: 100px;
+    right: 0;
+    animation-name: aa5;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa5{
+    0%{
+        right: 0;
+        }
+    100%{
+        right:1290px;
+    }
+}
+.a6{
+    right: 0;
+    top:300px ;
+    animation-name: aa6;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa6{
+    0%{
+        right: 0;
+        }
+    100%{
+        right:1290px;
+    }
+}
+.a7{
+    right: 0;
+    top:500px ;
+    animation-name: aa7;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa7{
+    0%{
+        right: 0;
+        }
+    100%{
+        right:1290px;
+    }
+}
+.a8{
+    right: 0;
+    top:700px ;
+    animation-name: aa8;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+}
+@keyframes aa8{
+    0%{
+        right: 0;
+        }
+    100%{
+        right:1290px;
+    }
+}
